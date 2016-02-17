@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rc1zfnAHLPIeenjPunhn05Fiwyc=
+			2Wi4pTreyZZ6XLgcP7vK4KXMIAc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,7 +44,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			35u6XuQYOp8dCcE4yP32VWRiinU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,14 +53,32 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			myS6aBE8xdOdMkdRXz3zQpjSnFI=
+			54k3sZ9AyoNvdslq83baz2G2a2o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-YcY-5i-1O8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zo+Dyc0JdDLeddMWpn1etDJ44Mw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/YcY-5i-1O8-view-4nj-1O-mBV.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fwEbNvNA8kIU4HKUwUQPmwaNg1Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		utgPOFYJqUwSiUSecvxGzsweBkk=
+		wMWepvkBRIz6aKFwyTCleJlT3KU=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -76,7 +94,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		Sd3Fy2BQfpRuXXzMqH0B4f9pO6g=
+		ndX6YySQQ69dwo05riaApaYd6Vc=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -177,7 +195,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rc1zfnAHLPIeenjPunhn05Fiwyc=
+			2Wi4pTreyZZ6XLgcP7vK4KXMIAc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -186,7 +204,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			35u6XuQYOp8dCcE4yP32VWRiinU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,14 +213,32 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			myS6aBE8xdOdMkdRXz3zQpjSnFI=
+			54k3sZ9AyoNvdslq83baz2G2a2o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-YcY-5i-1O8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zo+Dyc0JdDLeddMWpn1etDJ44Mw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/YcY-5i-1O8-view-4nj-1O-mBV.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fwEbNvNA8kIU4HKUwUQPmwaNg1Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		utgPOFYJqUwSiUSecvxGzsweBkk=
+		wMWepvkBRIz6aKFwyTCleJlT3KU=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -218,7 +254,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		Sd3Fy2BQfpRuXXzMqH0B4f9pO6g=
+		ndX6YySQQ69dwo05riaApaYd6Vc=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>

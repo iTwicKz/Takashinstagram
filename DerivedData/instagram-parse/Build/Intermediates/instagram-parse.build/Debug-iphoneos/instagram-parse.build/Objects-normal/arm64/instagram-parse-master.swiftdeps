@@ -1,7 +1,7 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "484b44b020321ecc6826bb68eea98bc9"
-build_time: [508986702, 494539000]
+build_time: [508988531, 826082000]
 inputs:
-  "/Users/Takashi/Documents/GitHub/instagram-parse/instagram-parse/LoginViewController.swift": [508986620, 0]
   "/Users/Takashi/Documents/GitHub/instagram-parse/instagram-parse/ViewController.swift": [508978146, 0]
   "/Users/Takashi/Documents/GitHub/instagram-parse/instagram-parse/AppDelegate.swift": [508986701, 0]
+  "/Users/Takashi/Documents/GitHub/instagram-parse/instagram-parse/LoginViewController.swift": [508988528, 0]

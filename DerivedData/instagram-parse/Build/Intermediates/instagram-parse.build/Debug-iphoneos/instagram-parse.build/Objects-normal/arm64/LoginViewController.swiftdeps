@@ -6,33 +6,36 @@ provides-nominal:
 provides-member:
 - ["C15instagram_parse19LoginViewController", ""]
 provides-dynamic-lookup:
+- "passwordField"
+- "didReceiveMemoryWarning"
+- "onLogin"
 - "viewDidLoad"
 - "loginField"
-- "onLogin"
-- "passwordField"
 - "onSignup"
-- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "print"
-- !private "StringLiteralType"
-- !private "Void"
-- "UIViewController"
-- "LoginViewController"
-- "AnyObject"
-- !private "PFUser"
 - !private "Bool"
+- !private "!="
+- !private "Void"
 - "UITextField"
 - !private "NSError"
+- !private "PFUser"
+- "StringLiteralType"
+- "UIViewController"
+- "AnyObject"
+- "LoginViewController"
+- !private "print"
 depends-member:
 - !private ["PSs9AnyObject", "PFUser"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["PSs9AnyObject", "logInWithUsernameInBackground"]
 - ["PSs9AnyObject", "loginField"]
 - ["PSs9AnyObject", "onLogin"]
 - ["PSs9AnyObject", "onSignup"]
 - !private ["PSs9AnyObject", "password"]
 - ["PSs9AnyObject", "passwordField"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
 - !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "signUpInBackgroundWithBlock"]
 - !private ["PSs9AnyObject", "text"]
@@ -46,11 +49,13 @@ depends-member:
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "localizedDescription"]
+- !private ["PSs11CVarArgType", "logInWithUsernameInBackground"]
 - ["PSs11CVarArgType", "loginField"]
 - ["PSs11CVarArgType", "onLogin"]
 - ["PSs11CVarArgType", "onSignup"]
 - !private ["PSs11CVarArgType", "password"]
 - ["PSs11CVarArgType", "passwordField"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
 - !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "signUpInBackgroundWithBlock"]
 - !private ["PSs11CVarArgType", "text"]
@@ -62,11 +67,13 @@ depends-member:
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- !private ["PSs23CustomStringConvertible", "logInWithUsernameInBackground"]
 - ["PSs23CustomStringConvertible", "loginField"]
 - ["PSs23CustomStringConvertible", "onLogin"]
 - ["PSs23CustomStringConvertible", "onSignup"]
 - !private ["PSs23CustomStringConvertible", "password"]
 - ["PSs23CustomStringConvertible", "passwordField"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "signUpInBackgroundWithBlock"]
 - !private ["PSs23CustomStringConvertible", "text"]
@@ -78,11 +85,13 @@ depends-member:
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "localizedDescription"]
+- !private ["PSs9Equatable", "logInWithUsernameInBackground"]
 - ["PSs9Equatable", "loginField"]
 - ["PSs9Equatable", "onLogin"]
 - ["PSs9Equatable", "onSignup"]
 - !private ["PSs9Equatable", "password"]
 - ["PSs9Equatable", "passwordField"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
 - !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "signUpInBackgroundWithBlock"]
 - !private ["PSs9Equatable", "text"]
@@ -95,11 +104,13 @@ depends-member:
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "localizedDescription"]
+- !private ["PSs8Hashable", "logInWithUsernameInBackground"]
 - ["PSs8Hashable", "loginField"]
 - ["PSs8Hashable", "onLogin"]
 - ["PSs8Hashable", "onSignup"]
 - !private ["PSs8Hashable", "password"]
 - ["PSs8Hashable", "passwordField"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
 - !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "signUpInBackgroundWithBlock"]
 - !private ["PSs8Hashable", "text"]
@@ -119,6 +130,7 @@ depends-member:
 - ["C15instagram_parse19LoginViewController", "onLogin"]
 - ["C15instagram_parse19LoginViewController", "onSignup"]
 - ["C15instagram_parse19LoginViewController", "passwordField"]
+- !private ["C15instagram_parse19LoginViewController", "performSegueWithIdentifier"]
 - !private ["C15instagram_parse19LoginViewController", "print"]
 - ["C15instagram_parse19LoginViewController", "viewDidLoad"]
 - !private ["PSo8NSCoding", "PFUser"]
@@ -129,6 +141,7 @@ depends-member:
 - ["PSo8NSCoding", "onLogin"]
 - ["PSo8NSCoding", "onSignup"]
 - ["PSo8NSCoding", "passwordField"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -142,6 +155,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "onLogin"]
 - ["PSo26NSExtensionRequestHandling", "onSignup"]
 - ["PSo26NSExtensionRequestHandling", "passwordField"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
@@ -154,11 +168,13 @@ depends-member:
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "logInWithUsernameInBackground"]
 - ["CSo8NSObject", "loginField"]
 - ["CSo8NSObject", "onLogin"]
 - ["CSo8NSObject", "onSignup"]
 - !private ["CSo8NSObject", "password"]
 - ["CSo8NSObject", "passwordField"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "signUpInBackgroundWithBlock"]
 - !private ["CSo8NSObject", "text"]
@@ -168,11 +184,13 @@ depends-member:
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "logInWithUsernameInBackground"]
 - ["PSo16NSObjectProtocol", "loginField"]
 - ["PSo16NSObjectProtocol", "onLogin"]
 - ["PSo16NSObjectProtocol", "onSignup"]
 - !private ["PSo16NSObjectProtocol", "password"]
 - ["PSo16NSObjectProtocol", "passwordField"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "signUpInBackgroundWithBlock"]
 - !private ["PSo16NSObjectProtocol", "text"]
@@ -180,15 +198,19 @@ depends-member:
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["Sq", "deinit"]
 - !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "logInWithUsernameInBackground"]
 - !private ["CSo8PFObject", "password"]
 - !private ["CSo8PFObject", "signUpInBackgroundWithBlock"]
 - !private ["CSo8PFObject", "username"]
 - !private ["PSo13PFSubclassing", "init"]
+- !private ["PSo13PFSubclassing", "logInWithUsernameInBackground"]
 - !private ["PSo13PFSubclassing", "password"]
 - !private ["PSo13PFSubclassing", "signUpInBackgroundWithBlock"]
 - !private ["PSo13PFSubclassing", "username"]
 - !private ["CSo6PFUser", "init"]
+- !private ["CSo6PFUser", "logInWithUsernameInBackground"]
 - !private ["CSo6PFUser", "password"]
 - !private ["CSo6PFUser", "signUpInBackgroundWithBlock"]
 - !private ["CSo6PFUser", "username"]
@@ -201,6 +223,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "onLogin"]
 - ["PSo21UIAppearanceContainer", "onSignup"]
 - ["PSo21UIAppearanceContainer", "passwordField"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
@@ -212,6 +235,7 @@ depends-member:
 - ["PSo18UIContentContainer", "onLogin"]
 - ["PSo18UIContentContainer", "onSignup"]
 - ["PSo18UIContentContainer", "passwordField"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
@@ -225,6 +249,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "onLogin"]
 - ["PSo18UIFocusEnvironment", "onSignup"]
 - ["PSo18UIFocusEnvironment", "passwordField"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
@@ -242,6 +267,7 @@ depends-member:
 - ["CSo11UIResponder", "onLogin"]
 - ["CSo11UIResponder", "onSignup"]
 - ["CSo11UIResponder", "passwordField"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "viewDidLoad"]
@@ -252,6 +278,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "onLogin"]
 - ["PSo16UIStateRestoring", "onSignup"]
 - ["PSo16UIStateRestoring", "passwordField"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
@@ -265,6 +292,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "onLogin"]
 - ["PSo18UITraitEnvironment", "onSignup"]
 - ["PSo18UITraitEnvironment", "passwordField"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
@@ -282,11 +310,13 @@ depends-member:
 - ["CSo16UIViewController", "onLogin"]
 - ["CSo16UIViewController", "onSignup"]
 - ["CSo16UIViewController", "passwordField"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "text"]
 depends-nominal:
@@ -307,6 +337,7 @@ depends-nominal:
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
+- !private "Sq"
 - !private "CSo8PFObject"
 - !private "PSo13PFSubclassing"
 - !private "CSo6PFUser"
@@ -329,6 +360,7 @@ depends-nominal:
 - "CSo16UIViewController"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
 - !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
 - !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
