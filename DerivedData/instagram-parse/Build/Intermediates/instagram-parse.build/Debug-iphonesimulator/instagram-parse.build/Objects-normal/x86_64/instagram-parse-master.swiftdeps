@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "16c91d7382d2c7b28fcdcb9461548053"
+build_time: [508981635, 338107000]
+inputs:
+  "/Users/Takashi/Documents/GitHub/instagram-parse/instagram-parse/AppDelegate.swift": [508981631, 0]
+  "/Users/Takashi/Documents/GitHub/instagram-parse/instagram-parse/ViewController.swift": [508978146, 0]
